@@ -1,0 +1,1 @@
+This module adds support for 'Dungeons & Dragons 3.5e' to [Material Deck](https://github.com/MaterialFoundry/MaterialDeck).
