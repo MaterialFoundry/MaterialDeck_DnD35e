@@ -1,5 +1,3 @@
-import { materialDeck } from "../MaterialDeck/MaterialDeck.js";
-
 const data = {
     systemId: 'dnd35e',
     moduleId: 'materialdeck-dnd35e',
@@ -337,7 +335,7 @@ class system {
 Hooks.once('MaterialDeck_Ready', () => {
     const moduleData = game.modules.get(data.moduleId);
 
-    materialDeck.registerSystem({
+    game.materialDeck.registerSystem({
         systemId: data.systemId,
         moduleId: data.moduleId,
         systemName: data.systemName,
